@@ -52,7 +52,7 @@ Thumbs.db
 
 # Environment variables (Docker setup)
 .env
-contracts/.env
+backend/.env
 
 # Docker volumes
 mongodb_data/

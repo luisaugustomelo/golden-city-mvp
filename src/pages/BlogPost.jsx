@@ -100,7 +100,7 @@ function BlogPost() {
             className="lg:col-span-2"
           >
             <div className="bg-white rounded-lg shadow-md p-8">
-              <div 
+              <div
                 className="prose prose-lg max-w-none"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />

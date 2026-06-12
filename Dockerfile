@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --omit=dev --legacy-peer-deps
 
-COPY contracts/ ./
+COPY backend/ ./
 
 EXPOSE 5001
 
