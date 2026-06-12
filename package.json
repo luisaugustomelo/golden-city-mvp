@@ -53,10 +53,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "concurrently \"node contracts/app.js\" \"react-app-rewired start\"",
-    "start": "concurrently \"node contracts/app.js\" \"react-app-rewired start\"",
+    "dev": "concurrently \"node backend/app.js\" \"react-app-rewired start\"",
+    "start": "concurrently \"node backend/app.js\" \"react-app-rewired start\"",
     "frontend": "react-app-rewired start",
-    "backend": "node contracts/app.js",
+    "backend": "node backend/app.js",
     "build": "react-app-rewired build --mode production",
     "test": "react-app-rewired test --watchAll=false --coverage",
     "lint": "eslint 'src/**/*.{js,jsx}'",
